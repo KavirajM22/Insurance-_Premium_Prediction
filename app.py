@@ -9,7 +9,7 @@ import pandas as pd
 from datetime import datetime
 
 # Load the LogisticRegression model
-model = pickle.load(open('Insurance.pkl', 'rb'))
+model = pickle.load(open('Insurance_model.pkl', 'rb'))
 
 app = Flask(__name__)
 
